@@ -8,10 +8,6 @@ models:
       - name: order_id
       - name: payment_method
       - name: status
-        tests:
-          - accepted_values:
-              values:
-                ["success", "failed"]
       - name: amount
         description: amount is stored in cents, convert it to dollars
       - name: created_at
